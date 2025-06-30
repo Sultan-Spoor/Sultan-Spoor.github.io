@@ -123,14 +123,14 @@ h1{
     height: 300px;
     border-radius: 50px; 
 }
-.trousers p{
+/* .trousers p{
     display: flex;
     font-size: 22px;
     align-items: center;
     justify-content: center;
     border: 2px solid #3eafdb;
     border-radius: 35px;
-}
+} */
 .trousers a{
     display: inline-block;
     padding: 5px 10px;
