@@ -91,7 +91,7 @@ h1{
 }
 .shirt img{
     width: 95%;
-    height: 525px;
+    height: auto;
     border-radius: 50px; 
 }
 .shirt p{
@@ -122,7 +122,7 @@ h1{
 }
 .trousers img{
     width: 95%;
-    height: 500px;
+    height: auto;
     border-radius: 50px; 
 }
 .trousers p{
@@ -154,6 +154,7 @@ h1{
 .hats video{
     width: 95%;
     border-radius: 50px;
+    height: auto;
 }
 h3{
     margin-left: 43%;
