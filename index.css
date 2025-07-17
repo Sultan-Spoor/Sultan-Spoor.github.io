@@ -169,7 +169,7 @@ h2{
         padding: 10px;
     }
 
-    h1, h2, h3 {
+    h3 {
         font-size: 24px;
         margin-left: 0;
         text-align: center;
@@ -201,10 +201,11 @@ h2{
     .ads {
         flex-direction: column;
         height: auto;
+        width:100%;
     }
 
     .ads div {
-        width: 100%;
+        width: 95%;
         height: auto;
     }
 
