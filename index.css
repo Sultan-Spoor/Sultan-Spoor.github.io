@@ -162,3 +162,56 @@ h3{
 h2{
     margin-left: 30%;
 }
+
+@media (max-width: 768px) {
+    body {
+        height: auto;
+        padding: 10px;
+    }
+
+    h1, h2, h3 {
+        font-size: 24px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .top {
+        flex-direction: column;
+        border-radius: 20px;
+        padding: 10px;
+    }
+
+    .ul ul {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .ul .col {
+        font-size: 18px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .srch {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .ads {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .ads div {
+        width: 100%;
+        height: auto;
+    }
+
+    .shirt a,
+    .trousers a {
+        margin-left: 0;
+        display: block;
+        text-align: center;
+    }
+}
