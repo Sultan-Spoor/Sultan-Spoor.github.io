@@ -7,7 +7,6 @@
 }
 body{
     background-color: #fff;
-    display: grid;
     flex-direction:column;
     align-items: center;
     justify-content: space-around;
@@ -15,7 +14,6 @@ body{
     
 }
 .top{
-    display:flex;
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
     list-style: none;
@@ -23,7 +21,7 @@ body{
     border: 15px solid #3eafdb;
     border-radius: 75px;
     background-color: #3eafdb;
-    width: 95%;
+    width: 97%;
     align-items: center;
     justify-content: center;
 }
@@ -32,12 +30,13 @@ ul{
     list-style: none;
     padding: 0;
     margin: 0 20px 0 0;
-    gap: 10px;
+    gap: 15px;
+    
 }
 .ul{
     align-items: center;
-    border: 10px solid #3eafdb;
-    border-radius: 43px;
+    border: 15px solid #3eafdb;
+    border-radius: 50px;
 }
 .ul .col{
     display: inline-block;
@@ -54,7 +53,10 @@ ul{
 .ul .col:hover {
     background-color: #3eafdb;
 }
-
+.logo{
+    height: 100px;
+    width: 100px;
+}
 h1{
     font-size: 50px;
     font-family: "Cairo", sans-serif;
@@ -69,144 +71,92 @@ h1{
 .srch{
     margin-left: 35%;
 }
-.logo{
-    height: 100px;
-    width: 100px;
-}
-.ads{
-    display: flex;
-    gap: 10px;
-    border: 3px solid #3eafdb;
-    border-radius: 10px ;
-    width: 98%;
-    height: 850px;
-} 
-.ads div{
-    border: #3eafdb 3px solid;
-    border-radius: 10px;
-    width: 33%;
-    height: 825px;
-    
-}
-.shirt img{
-    width: 95%;
-    height: auto;
-    border-radius: 50px; 
-}
-.shirt p{
-    display: flex;
-    font-size: 22px;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #3eafdb;
-    border-radius: 50px;
-}
-.shirt a{
-    display: inline-block;
-    padding: 5px 10px;
-    background-color: #6ac3e6; 
-    color: black;
-    text-decoration: none;
-    border-radius: 50px;
-    border: none;
-    font-size: 25px;
-    font-family: "Cairo", sans-serif;
-    cursor: pointer;
-    margin-left: 135px;
-    margin-top: 13px;
-}
-.shirt a:hover{
-    background-color: #3eafdb;
-    
-}
-.trousers img{
-    width: 95%;
-    height: auto;
-    border-radius: 50px; 
-}
-.trousers p{
-    display: flex;
-    font-size: 22px;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #3eafdb;
-    border-radius: 35px;
-} 
-.trousers a{
-    display: inline-block;
-    padding: 5px 10px;
-    background-color: #6ac3e6; 
-    color: black;
-    text-decoration: none;
-    border-radius: 50px;
-    border: none;
-    font-size: 25px;
-    font-family: "Cairo", sans-serif;
-    cursor: pointer;
-    margin-left: 135px;
-    margin-top: 13px;
-}
-#products{
-    font-size: 25px ;
-    margin-left: 45%;
-}
-.hats video{
-    width: 95%;
-    border-radius: 50px;
-    height: auto;
-}
-.hats p{
-    display: flex;
-    font-size: 22px;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #3eafdb;
-    border-radius: 35px;
-}
-.hats a{
-    display: inline-block;
-    padding: 5px 10px;
-    background-color: #6ac3e6; 
-    color: black;
-    text-decoration: none;
-    border-radius: 50px;
-    border: none;
-    font-size: 25px;
-    font-family: "Cairo", sans-serif;
-    cursor: pointer;
-    margin-left: 135px;
-    margin-top: 13px;
-}
 h3{
     margin-left: 43%;
 }
 h2{
     margin-left: 30%;
 }
-
+.result{
+    border: 3px solid #3eafdb;
+    border-radius: 10px;
+}
+.result div{
+    border: 3px solid #3eafdb;
+    border-radius: 10px;
+    width: 95%;
+    height: 750px;
+}
+.result ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.accept{
+    font-size: 25px;
+    margin-left: 235px;
+}
+.first img{
+    width: 93%;
+    border-radius: 50px;
+}
+.first p{
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #3eafdb;
+    border-radius: 35px;
+}
+.first a{
+    display: inline-block;
+    padding: 7px 12px;
+    background-color: #6ac3e6; 
+    color: black;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    font-size: 25px;
+    font-family: "Cairo", sans-serif;
+    cursor: pointer;
+    margin-left: 135px;
+    margin-top: 13px;
+}
+.second img{
+    width: 93%;
+    border-radius: 50px;
+}
+.second p{
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #3eafdb;
+    border-radius: 35px;
+}
+.second a{
+    display: inline-block;
+    padding: 7px 12px;
+    background-color: #6ac3e6; 
+    color: black;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    font-size: 25px;
+    font-family: "Cairo", sans-serif;
+    cursor: pointer;
+    margin-left: 135px;
+    margin-top: 13px;
+}
 @media (max-width: 768px) {
     body {
         height: auto;
         padding: 10px;
     }
-
-    h3 {
-        font-size: 24px;
-        margin-left: 0;
-        text-align: center;
-    }
-    h1{
-        font-size: 30px;
-    }
-    h2{
-        font-size: 15px;
-        margin-left: 18%;
-    }
     .top {
         flex-direction: column;
         border-radius: 20px;
         padding: 10px;
-        border: 15px;
+        
     }
 
     .ul ul {
@@ -220,7 +170,6 @@ h2{
         margin-top: 10px;
         text-align: center;
     }
-
     .srch {
         margin-left: 20%;
         width: 65%;
@@ -229,24 +178,16 @@ h2{
         margin-left: 45%;
         margin-top: 7px;
     }
-
-    .ads {
-        flex-direction: column;
-        height: auto;
-        width:98%;
-    }
-
-    .ads div {
-        width: 93%;
-        height: auto;
-    }
-    #products{
-        margin-left: 40%;
-    }
-    .shirt a,
-    .trousers a {
+    h3 {
+        font-size: 24px;
         margin-left: 0;
-        display: block;
         text-align: center;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 15px;
+        margin-left: 18%;
     }
 }
