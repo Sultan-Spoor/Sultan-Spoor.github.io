@@ -84,8 +84,8 @@ h2{
 .result div{
     border: 3px solid #3eafdb;
     border-radius: 10px;
-    width: 95%;
-    height: 750px;
+    width: 93%;
+    height: 775px;
 }
 .result ul{
     display: grid;
@@ -147,6 +147,110 @@ h2{
     margin-left: 135px;
     margin-top: 13px;
 }
+.third img{
+    width: 93%;
+    border-radius: 50px;
+}
+.third p{
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #3eafdb;
+    border-radius: 35px;
+}
+.third a{
+    display: inline-block;
+    padding: 7px 12px;
+    background-color: #6ac3e6; 
+    color: black;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    font-size: 25px;
+    font-family: "Cairo", sans-serif;
+    cursor: pointer;
+    margin-left: 135px;
+    margin-top: 13px;
+}
+.fordth img{
+    width: 93%;
+    border-radius: 50px;
+}
+.fordth p{
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #3eafdb;
+    border-radius: 35px;
+}
+.fordth a{
+    display: inline-block;
+    padding: 7px 12px;
+    background-color: #6ac3e6; 
+    color: black;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    font-size: 25px;
+    font-family: "Cairo", sans-serif;
+    cursor: pointer;
+    margin-left: 135px;
+    margin-top: 13px;
+}
+.fiveth img{
+    width: 93%;
+    border-radius: 50px;
+}
+.fiveth p{
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #3eafdb;
+    border-radius: 35px;
+}
+.fiveth a{
+    display: inline-block;
+    padding: 7px 12px;
+    background-color: #6ac3e6; 
+    color: black;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    font-size: 25px;
+    font-family: "Cairo", sans-serif;
+    cursor: pointer;
+    margin-left: 135px;
+    margin-top: 13px;
+}
+.sixth img{
+    width: 93%;
+    border-radius: 50px;
+}
+.sixth p{
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #3eafdb;
+    border-radius: 35px;
+}
+.sixth a{
+    display: inline-block;
+    padding: 7px 12px;
+    background-color: #6ac3e6; 
+    color: black;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    font-size: 25px;
+    font-family: "Cairo", sans-serif;
+    cursor: pointer;
+    margin-left: 135px;
+    margin-top: 13px;
+}
 @media (max-width: 768px) {
     body {
         height: auto;
@@ -189,5 +293,16 @@ h2{
     h2{
         font-size: 15px;
         margin-left: 18%;
+    }
+    .result ul {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .accept{
+        text-align: center;
+        margin-left: 50px;
+        line-height: 2;
+    }
+    .result div{
+        height: 1000px;
     }
 }

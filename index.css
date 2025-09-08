@@ -146,6 +146,10 @@ h1{
     margin-left: 135px;
     margin-top: 13px;
 }
+.trousers a:hover{
+    background-color: #3eafdb;
+    
+}
 #products{
     font-size: 25px ;
     margin-left: 45%;
@@ -176,6 +180,10 @@ h1{
     cursor: pointer;
     margin-left: 135px;
     margin-top: 13px;
+}
+.hats a:hover{
+    background-color: #3eafdb;
+    
 }
 h3{
     margin-left: 43%;
